@@ -3,9 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Loja de açaí</title>
+    
+<style>
+    * {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333
+    }
+
+    header {
+        background-color: #4b0082;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    header h1, header p, footer p {
+        background-color: transparent;
+        color: #d116c5;
+    }
+
+    nav {
+        background-color: #6a0dad;
+        padding: 10px;
+        text-aling: center;
+    }
+
+    nav a {
+        color: white;
+        background-color: transparent;
+        margin: 0 15px;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    setion {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        margin: 20px auto;
+        padding: 15px;
+        max-width: 300px;
+        background-color: white;
+    }
+
+    .card img {
+        max-width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
+    
+    footer {
+        background-color: #4b0082;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 20px;
+    }
+</style>
 </head>
 <body>
-    
+    <header>
+        <h1>Seja bem-vindo a SiAçaí</h1>
+        <p>O melhor açaí e os melhores sabores para você!</p>
+     </header>
+
+     <setion id="cardapio">
+        <h2>Cardápio</h2>
+        <div class="card">
+            <img src="acai tradic.avif" alt="Açai tradicional"
+            <h3>Açai tradicional</h3>
+            <p>Açai natural, perfeito pra quem gosta do mais simples.</p>
+        </div>
+        <div class="card">
+            <img src="acai c adicionais.jpg"alt="Açai com frutas"
+            <h3>Açai com frutas</h3>
+            <p>Acai de banana e morango</p>
+        </div>
+        <div class="card">
+            <img src="acai 3.jpg" alt="Açai c/ adicionais"
+            <h3>Açai c/ adicionais</h3>
+            <p>Escoha os adicionais de sua preferencia, leite condesado, leite ninho, granola e muito mais adicionais!</p>
+         </div>
+     </setion>
+
+     <setion id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para fazer seu pedido e tirar suas dúvidas.</p>
+        <p>Email: siacai_acaiteria@gmail.com</p>
+        <p>Telefone: (42) 9995-6799</p>
+     </setion>
+
+     <footer>
+        <p>&copy; 2024 Loja de Açai.</p>
+     </footer>
 </body>
 </html>
+
